@@ -1,9 +1,12 @@
-import Projects from '../components/Projects.jsx'
-
+import Project from '../components/Project.jsx'
+import '../styles/Home.css'
+import '../styles/App.css'
 const Home = () => {
     return (
     <>
-        <Projects />
+        <section className='project__container'>
+            <Project />
+        </section>
     </>
 )
 }
