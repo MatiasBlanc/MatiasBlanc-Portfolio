@@ -1,0 +1,29 @@
+[
+    {
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_900/Screenshots/ovjhxx3pexmfhljbkyao.jpg",
+        "name": "NFT card",
+        "language": "HTML, CSS",
+        "buttons": {
+            "Code": "https://github.com/SendTech/linktree-page",
+            "Live": "#"
+        }
+    },
+    {
+        "image": "../assets/image.jpg",
+        "name": "Lorem ipsum2",
+        "language": "Lorem ipsum2",
+        "buttons": {
+            "Code": "#",
+            "Live": "#"
+        }
+    },
+    {
+        "image": "../assets/image.jpg",
+        "name": "Lorem ipsum2",
+        "language": "Lorem ipsum2",
+        "buttons": {
+            "Code": "#",
+            "Live": "#"
+        }
+    }
+]

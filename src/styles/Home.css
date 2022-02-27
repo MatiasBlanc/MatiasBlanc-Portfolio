@@ -1,0 +1,71 @@
+:root {
+    --principal-color: #7765e3;
+    --secondary-color: #364fab;
+    --principal-color--inactive: #7865e370;
+    --tertiary-color: #9381fc;
+    --principal-dark: #0e0e23;
+    --secondary-dark: #181e34;
+}
+
+.project__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    width: 60%;
+    gap: 2rem;
+    margin:20px auto;
+}
+
+.project {
+    padding: 15px;
+    background-color: #181e34;
+    color: #eee;
+    border-radius: 12px;
+}
+
+.project__image {
+    width: 100%;
+    border-radius: 12px;
+    margin: auto;
+}
+
+.project__name {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 15px 0 0;
+}
+
+.project__language {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px 10px 20px;
+    font-weight: 300;
+}
+
+.project__btn {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.project__btn .btn {
+    padding: 6px 55px;
+    color: #eee;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 12px;
+    transition-duration: .3s;
+}
+
+.project__btn .btn:hover {
+    background-color: var(--secondary-color);
+}
+
+.btn--code {
+    background-color: var(--principal-color--inactive);
+}
+
+.btn--live {
+    background-color: var(--principal-color);
+}
