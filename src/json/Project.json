@@ -2,28 +2,28 @@
     {
         "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_900/Screenshots/ovjhxx3pexmfhljbkyao.jpg",
         "name": "NFT card",
-        "language": "HTML, CSS",
+        "language": "Html, Css",
         "buttons": {
-            "Code": "https://github.com/SendTech/linktree-page",
-            "Live": "#"
+            "Code": "https://github.com/MatiasBlanc/NFT-card",
+            "Live": "https://matiasblanc.github.io/NFT-card/"
         }
     },
     {
-        "image": "../assets/image.jpg",
-        "name": "Lorem ipsum2",
-        "language": "Lorem ipsum2",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_900/Screenshots/ovjhxx3pexmfhljbkyao.jpg",
+        "name": "linktree Page",
+        "language": "React",
         "buttons": {
-            "Code": "#",
-            "Live": "#"
+            "Code": "https://github.com/MatiasBlanc/linktree-page",
+            "Live": "https://redes.sendero.tech/"
         }
     },
     {
-        "image": "../assets/image.jpg",
-        "name": "Lorem ipsum2",
-        "language": "Lorem ipsum2",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_900/Screenshots/ovjhxx3pexmfhljbkyao.jpg",
+        "name": "To-do List",
+        "language": "JavaScript",
         "buttons": {
-            "Code": "#",
-            "Live": "#"
+            "Code": "https://github.com/MatiasBlanc/To-Do-list",
+            "Live": "https://blanc-list.netlify.app/"
         }
     }
 ]
