@@ -10,7 +10,7 @@
     },
     {
         "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_900/Screenshots/ovjhxx3pexmfhljbkyao.jpg",
-        "name": "linktree Page",
+        "name": "Linktree Page",
         "language": "React",
         "buttons": {
             "Code": "https://github.com/MatiasBlanc/linktree-page",

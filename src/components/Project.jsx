@@ -2,7 +2,7 @@ import projectJson from '../json/Project.json';
 
 const Project = () => {
     return (
-    <>
+    <section id='project' className='project__container'>
     {
         projectJson.map((project) => (
             <article key={project} className="project">
@@ -16,7 +16,7 @@ const Project = () => {
             </article>
         )
     )}
-    </>
+    </section>
     );
 }
 
