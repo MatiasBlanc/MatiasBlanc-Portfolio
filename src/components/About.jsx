@@ -1,4 +1,4 @@
-import matiasblanc from '../assets/MatiasBlanc.jpg';
+import matiasblanc from '../assets/MatiasBlanc.png';
 
 const About = () => {
     return (
