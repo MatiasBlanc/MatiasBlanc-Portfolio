@@ -10,8 +10,8 @@ const Project = () => {
                 <h2 className="project__name">{project.name}</h2>
                 <p className="project__language">Languages: {project.language}</p>
                 <section className="project__btn">
-                    <a className="btn btn--code" target="_blank"  href={project.buttons.Code}>Code</a>
-                    <a className="btn btn--live" target="_blank"  href={project.buttons.Live}>Live</a>
+                    <button className="btn btn--code"><a href={project.buttons.Code} className='btn__text--code'>Code</a></button>
+                    <button className="btn btn--live"><a href={project.buttons.Live}>Live</a></button>
                 </section>
             </article>
         )
