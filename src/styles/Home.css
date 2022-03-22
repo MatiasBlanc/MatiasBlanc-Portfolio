@@ -50,10 +50,55 @@
 }
 
 .header__subtitle {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 34px;
     font-weight: 500;
     color: var(--principal-color);
+}
+
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    padding: 20px;
+    margin: 50px auto;
+    color: #eee;
+    border-radius: 12px;
+    background-color: var(--secondary-dark);
+}
+
+.about-me__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-me__description {
+    width: 85%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #eee;
+    margin: 0 0 50px;
+}
+
+.about-me__btn {
+    width: 60%;
+    padding: 12px 50px;
+    color: #eee;
+    background-color: var(--principal-color);
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.about-me__image {
+    width: 500px;
+    height: 300px;
+    border-radius: 12px;
 }
 
 .project__container {
@@ -82,7 +127,7 @@
 .project__name {
     font-family: 'Rubik', sans-serif;
     font-size: 26px;
-    font-weight: 700;
+    font-weight: 600;
     margin: 15px 0 0;
 }
 
@@ -92,21 +137,6 @@
     font-size: 16px;
     font-weight: 400;
 }
-
-/* .project__btn {
-    display: flex;
-    justify-content: space-around;
-}
-
-.project__btn .btn {
-    padding: 6px 55px;
-    color: #eee;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    cursor: pointer;
-    border-radius: 12px;
-} */
 
 .project__btn {
     width: 100%;
@@ -119,7 +149,7 @@
     margin: 5px auto;
     padding: 8px 0;
     color: #eee;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 20px;
     font-weight: 500;
     text-align: center;
@@ -132,10 +162,30 @@
 }
 
 .btn--code {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--secondary-color--inactive);
-    transition-duration: .3s;
+    overflow: hidden;
 }
 
-.btn--code:hover {
+.btn__text--code {
+    z-index: 1;
+}
+
+.btn--code::after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 1px;
+    top: 50%; 
+    left: 50%;
+    transition: .6s ease-in-out;
+    border-radius: 100px;
+}
+
+.btn--code:hover::after {
+    transform: scale(400);
     background-color: var(--secondary-color);
 }

@@ -1,6 +1,6 @@
-import Project from '../components/Project.jsx'
 import Navbar from '../components/Navbar.jsx'
 import About from '../components/About'
+import Project from '../components/Project.jsx'
 import '../styles/Home.css'
 import '../styles/App.css'
 
@@ -14,10 +14,8 @@ const Home = () => {
             <h2 className='header__name'>Matias F. Blanc</h2>
             <h3 className='header__subtitle'>Frontend developer</h3>
         </header>
+        <About />
         <Project />
-        <footer>
-            <p>Spotify</p>
-        </footer>
     </>
 )
 }
