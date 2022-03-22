@@ -10,8 +10,8 @@ const Home = () => {
     return (
     <>
         <Navbar />
-        <header className='header'>
-            <h2 className='header__name'>Matias F. Blanc</h2>
+        <header id='header' className='header'>
+            <h2 className='header__name'>Matias Blanc</h2>
             <h3 className='header__subtitle'>Frontend developer</h3>
         </header>
         <About />
