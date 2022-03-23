@@ -190,7 +190,7 @@
     background-color: var(--secondary-color);
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     body {
         background-color: red;
     }
