@@ -5,7 +5,7 @@
         "language": "Html, Css",
         "buttons": {
             "Code": "https://github.com/MatiasBlanc/NFT-card",
-            "Live": "https://matiasblanc.github.io/NFT-card/"
+            "Live": "https://nftcard.matiasblanc.me/"
         }
     },
     {
@@ -23,7 +23,7 @@
         "language": "JavaScript",
         "buttons": {
             "Code": "https://github.com/MatiasBlanc/To-Do-list",
-            "Live": "https://blanc-list.netlify.app/"
+            "Live": "https://todo-list.matiasblanc.me/"
         }
     }
 ]
