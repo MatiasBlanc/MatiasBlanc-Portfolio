@@ -1,10 +1,12 @@
-import miImage from '../assets/image.jpg';
+import projectJson from '../json/Skills.json';
 
-const About = () => {
+const Skills = () => {
     return (
-        <>
-        </>
+        <article className="skill">
+            <img src="" alt="" className="skill__logo"/>
+            <h2 className="skill__name">{}</h2>
+        </article>
     );
 }
 
-export default About
+export default Skills
