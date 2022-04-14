@@ -13,22 +13,51 @@
     background-color: var(--secondary-dark);
     border-radius: 12px;
     margin: auto;
+    z-index: 99;
 }
 
 .navbar__list {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     list-style: none;
+    padding: 10px;
 }
 
 .navbar__element {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
     align-items: center;
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
     font-size: 20px;
-    padding: 15px 0;
+    padding: 8px 25px;
     color: #eee;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: var(--secondary-color--inactive);
+}
+
+.navbar__element::after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 1px;
+    top: 50%; 
+    left: 50%;
+    transition: .4s ease-out;
+    border-radius: 100px;
+}
+
+.navbar__element:hover::after {
+    transform: scale(150);
+    background-color: var(--principal-color);
+}
+
+.navbar__element a {
+    z-index: 1;
 }
 
 .header {
@@ -58,6 +87,7 @@
     font-size: 34px;
     font-weight: 500;
     color: var(--principal-color);
+    cursor: default;
 }
 
 .about-me {
@@ -195,6 +225,50 @@
     background-color: var(--secondary-color);
 }
 
+.form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    background-color: var(--secondary-dark);
+    border-radius: 20px;
+    padding: 20px 0;
+}
+
+.form__element {
+    width: 600px;
+    max-width: 600px;
+    padding: 12px;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: var(--secondary-color--inactive);
+    color: #eee;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.form__message {
+    min-width: 300px;
+    min-height: 30px;
+    max-height: 300px;
+    border-radius: 20px 20px 0px;
+}
+
+.form__btn {
+    width: 30%;
+    padding: 10px;
+    color: #eee;
+    background-color: var(--principal-color);
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
 @media screen and (max-width: 450px) {
     body {
         background-color: red;
@@ -217,7 +291,8 @@
         font-size: 16px;
         color: #eee;
         padding: 8px 0;
-        margin: 0 8px;
+        margin: 0 12px;
+        background: none;
     }
 
     .header {
@@ -267,5 +342,20 @@
         grid-template-columns: 1fr;
         gap: 25px;
         margin-top: 100px;
+    }
+
+    .form {
+        width: 85%;
+        padding: 10px;
+    }
+
+    .form__element {
+        width: 90%;
+        max-width: 90%;
+    }
+    
+    .form__btn {
+        width: 90%;
+        padding: 10px 0;
     }
 }
