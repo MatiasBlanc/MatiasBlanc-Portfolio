@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    a {
+        @apply font-medium;
+    }
+}
+
+@layer components {
+    .navbar__element {
+        @apply font-ms py-1.5 px-6 bg-secondaryInactive text-white-100 rounded-full duration-500
+    }
+    .navbar__element--active {
+        @apply bg-secondary cursor-pointer;
+    }
+}
