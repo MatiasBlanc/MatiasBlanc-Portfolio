@@ -10,9 +10,23 @@
 
 @layer components {
     .navbar__element {
-        @apply font-ms py-1.5 px-6 bg-secondaryInactive text-white-100 rounded-full duration-500
+        @apply font-ms py-1.5 px-8 bg-primaryInactive text-white-200 rounded-full duration-500
     }
-    .navbar__element--active {
-        @apply bg-secondary cursor-pointer;
+    .element--active {
+        @apply bg-primary cursor-default;
+    }
+    
+    .divider {
+        @apply w-full py-5 lg:py-10;
+    }
+    .divider__text {
+        @apply text-center font-rb text-3xl md:text-4xl lg:text-5xl text-secondary;
+    }
+
+    .project__technologies li {
+        @apply font-ms font-medium py-1 px-4 mx-0.5 bg-primaryInactive text-white-200 rounded-full;
+    }
+    .project__btn {
+        @apply font-ms font-semibold w-full p-2 my-1 text-white-200 text-center text-lg rounded-full;
     }
 }

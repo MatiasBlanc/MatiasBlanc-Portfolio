@@ -2,10 +2,10 @@ import headerIMG from '../assets/HeaderIMG.svg';
 
 function Header() {
     return (
-    <header className='w-full flex justify-center flex-col dark:bg-dark'>
-        <img src={headerIMG} className="w-2/5 m-auto" alt="" />
-        <h1 className='font-rb text-secondaryDark dark:text-white-400 font-bold text-7xl text-center'>Matias Blanc</h1>
-        <h2 className='font-ms text-primary font-semibold text-2xl text-center'>Frontend developer</h2>
+    <header className='flex justify-center flex-col w-full text-center mt-12'>
+        <img src={headerIMG} className="w-90 lg:w-2/5 mx-auto" alt="" />
+        <h1 className='font-rb text-primary dark:text-white-400 mt-5 md:mt-10 font-bold text-5xl md:text-6xl lg:text-7xl leading-none'>Matias Blanc</h1>
+        <h2 className='font-ms text-secondary font-semibold text-xl sm:text-2xl'>Frontend developer</h2>
     </header>
     )
   }

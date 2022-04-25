@@ -5,6 +5,13 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      'sm': '350px',
+      'md': '600px',
+      'lg': '800px',
+      'xl': '1280px',
+      '2xl': '1536px',
+    },
     fontFamily: {
       ms: ['Montserrat', 'sans-serif'],
       rb: ['Rubik', 'sans-serif'],
@@ -12,20 +19,25 @@ module.exports = {
     colors: {
       dark: '#0E0E25',
       secondaryDark: '#181E34',
-      primary: '#7765E3',
-      secondary: '#364FAB',
-      secondaryInactive: '#364fab9f',
+      primary: '#364FAB',
+      primaryInactive: '#364fab9f',
+      secondary: '#7765E3',
       white: {
-        100: '#ffffff',
-        200: '#e6e4ee',
-        300: '#d6d4dd',
-        400: '#c6c4cc',
+        100: '#F0FBFF',
+        200: '#E8F8FF',
+        300: '#D6E9FF',
+        400: '#C6DFFF',
       },
     },
     extend: {
       fontSize: {
         '7xl': '5rem',
         '8xl': '8rem',
+      },
+      spacing: {
+        45: '45%',
+        90: '90%',
+        95: '95%',
       }
     },
   },
