@@ -12,8 +12,8 @@
     .navbar__element {
         @apply font-ms py-1.5 px-8 bg-primaryInactive text-white-200 rounded-full duration-500
     }
-    .element--active {
-        @apply bg-primary cursor-default;
+    .navbar__element--active {
+        @apply bg-primary cursor-pointer;
     }
     
     .divider {
