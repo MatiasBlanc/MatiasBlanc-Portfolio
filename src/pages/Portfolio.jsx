@@ -5,7 +5,7 @@ import Skills from '../components/Skills';
 function Portfolio() {
     return (
     <>
-        {/* <Navbar /> */}
+        <Navbar />
         <div className='my-20 pb-10'>
             <div className='divider'>
                 <h2 className='divider__text'>Skills</h2>

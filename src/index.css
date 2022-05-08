@@ -23,10 +23,10 @@
         @apply text-center font-rb text-3xl md:text-4xl lg:text-5xl text-secondary;
     }
 
-    .project__technologies li {
+    .card__category li {
         @apply font-ms font-medium py-1 px-4 mx-0.5 bg-primaryInactive text-white-200 rounded-full;
     }
-    .project__btn {
+    .card__btn {
         @apply font-ms font-semibold w-full p-2 my-1 text-white-200 text-center text-lg rounded-full;
     }
 }

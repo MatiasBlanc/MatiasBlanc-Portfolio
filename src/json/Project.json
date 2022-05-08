@@ -2,7 +2,7 @@
     {
         "image": "https://i.imgur.com/AU7QiIt.png",
         "name": "NFT card",
-        "language": "Html, Css",
+        "language": ["Html", "Css"],
         "buttons": {
             "Code": "https://github.com/MatiasBlanc/NFT-card",
             "Live": "https://nftcard.matiasblanc.me/"
@@ -11,7 +11,7 @@
     {
         "image": "https://i.imgur.com/nYupHfv.png",
         "name": "Linktree Page",
-        "language": "React",
+        "language": ["React"],
         "buttons": {
             "Code": "https://github.com/MatiasBlanc/linktree-page",
             "Live": "https://redes.sendero.tech/"
@@ -20,7 +20,7 @@
     {
         "image": "https://i.imgur.com/ESHV0cE.png",
         "name": "To-do List",
-        "language": "JavaScript",
+        "language": ["JavaScript"],
         "buttons": {
             "Code": "https://github.com/MatiasBlanc/To-Do-list",
             "Live": "https://todo-list.matiasblanc.me/"
