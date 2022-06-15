@@ -7,7 +7,7 @@ import {
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
 import Portfolio from "./pages/Portfolio";
-import './index.css'
+import './style/index.css'
 
 const rootElement = document.getElementById("root");
 render(

@@ -2,10 +2,20 @@ import Navbar from '../components/Navbar';
 import Project from '../components/Project';
 import Skills from '../components/Skills';
 
+// Todo: StyledComponents para los divider
+
 function Portfolio() {
     return (
     <>
         <Navbar />
+        <div className='my-20 pb-10'>
+            <div className='divider'>
+                <h2 className='divider__text'>Services</h2>
+            </div>
+            <div>
+                <Skills />
+            </div>
+        </div>
         <div className='my-20 pb-10'>
             <div className='divider'>
                 <h2 className='divider__text'>Skills</h2>
@@ -14,7 +24,7 @@ function Portfolio() {
                 <Skills />
             </div>
         </div>
-        <div className='bg-white-200 my-20 pb-10'>
+        <div className='bg-white-200 dark:bg-dark my-20 pb-10'>
             <div className='divider'>
                 <h2 className='divider__text'>Proyectos</h2>
             </div>

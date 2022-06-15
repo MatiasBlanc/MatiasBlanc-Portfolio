@@ -4,16 +4,13 @@
 
 @layer base {
     a {
-        @apply font-medium;
+        @apply font-medium z-50;
     }
 }
 
 @layer components {
     .navbar__element {
-        @apply font-ms py-1.5 px-8 bg-primaryInactive text-white-200 rounded-full duration-500
-    }
-    .navbar__element--active {
-        @apply bg-primary cursor-pointer;
+        @apply relative overflow-hidden inline-flex font-ms py-1.5 px-8 bg-primaryInactive text-white-200 rounded-full duration-500
     }
     
     .divider {

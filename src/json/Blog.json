@@ -2,7 +2,8 @@
     {
         "image": "https://i.imgur.com/AU7QiIt.png",
         "title": "NFT card",
-        "category": ["Html", "Css"]
+        "category": ["Html", "Css"],
+        "url": "https://danestves.com/blog/how-to-create-awesome-ogimages-using-react-components"
     },
     {
         "image": "https://i.imgur.com/nYupHfv.png",
