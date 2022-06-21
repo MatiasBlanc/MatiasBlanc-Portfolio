@@ -3,27 +3,27 @@
 @tailwind utilities;
 
 @layer base {
-    a {
-        @apply font-medium z-50;
-    }
+	a {
+		@apply font-medium z-50;
+	}
 }
 
 @layer components {
-    .navbar__element {
-        @apply relative overflow-hidden inline-flex font-ms py-1.5 px-8 bg-primaryInactive text-white-200 rounded-full duration-500
-    }
-    
-    .divider {
-        @apply w-full py-5 lg:py-10;
-    }
-    .divider__text {
-        @apply text-center font-rb text-3xl md:text-4xl lg:text-5xl text-secondary;
-    }
+	.navbar__element {
+		@apply relative overflow-hidden inline-flex font-ms py-1.5 px-8 bg-primaryInactive text-white-200 rounded-full duration-500;
+	}
 
-    .card__category li {
-        @apply font-ms font-medium py-1 px-4 mx-0.5 bg-primaryInactive text-white-200 rounded-full;
-    }
-    .card__btn {
-        @apply font-ms font-semibold w-full p-2 my-1 text-white-200 text-center text-lg rounded-full;
-    }
+	.divider {
+		@apply w-full py-5 lg:py-10;
+	}
+	.divider__text {
+		@apply text-center font-rb text-3xl md:text-4xl lg:text-5xl text-secondary;
+	}
+
+	.card__category li {
+		@apply font-ms font-medium py-1 px-4 mx-0.5 bg-primaryInactive text-white-200 rounded-full;
+	}
+	.card__btn {
+		@apply font-ms font-semibold w-full p-2 my-1 text-white-200 text-center text-lg rounded-full;
+	}
 }
